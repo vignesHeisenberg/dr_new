@@ -1,0 +1,114 @@
+p {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.smart-city_bgimg {
+    background-image: url("../images/legal_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.transport_bgimg {
+    background-image: url("../images/industries/transport/transport-landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.data_bgimg {
+    background-image: url("../images/industries/data/data-landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.legal_extract {
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+svg {
+    color: white;
+
+}
+
+.legal_btn {
+    color: white;
+}
+
+.legal_btn1 {
+    margin-bottom: 10%;
+}
+
+.legal_p {
+    font-size: 1.2em;
+    line-height: 2em;
+    letter-spacing: 0.5px;
+}
+
+.clr-b {
+    color: #007CE1 !important
+}
+
+.bottom__dash::after {
+    content: "";
+    width: 200px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background: #007CE1;
+    top: 120%;
+
+}
+
+.clr-g {
+    color: #313138;
+}
+
+.ps {
+    background: linear-gradient(45deg, #1b41e2 46%, #00a9f1 100%);
+    color: white;
+    background: #1b41e2;
+}
+
+.ps_bg {
+    position: absolute;
+}
+
+.ps1 {
+    position: relative;
+    background-color: red;
+    color: black;
+
+
+}
+
+.legal_bgcss {
+    padding-right: 65px;
+    ;
+}
+
+.ps_img {
+    bottom: 56px;
+}
+
+#content-p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+#transport-map-p {
+    font-size: 1.1em;
+    text-indent: 3em;
+    line-height: 1.5em;
+}

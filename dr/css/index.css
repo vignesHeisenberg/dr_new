@@ -1,0 +1,204 @@
+body {
+  overflow-x: hidden;
+}
+
+#myVideo {
+  /* position: fixed; */
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  /* position: fixed; */
+  top: -4;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  color: #f1f1f1;
+  width: auto;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 0px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+#service {
+  background-image: url(../images/service-section-index-bg.jpg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+#service-one {
+  height: 350px;
+  width: auto;
+  background-color: #fff;
+  transition: all 0.8s cubic-bezier(.16, 1, .3, 1);
+  box-shadow: 0 0 10px 0 rgba(64, 64, 64, 0.2);
+}
+
+#service-one span {
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#service-one:hover {
+  border-radius: 5px;
+  background-color: #37d0f7;
+  color: #000;
+}
+
+#service-one:focus {
+  border-radius: 5px;
+  background-color: #37d0f7;
+  color: #000;
+}
+
+#service-one:hover span,
+#service-one:focus span {
+  color: #000;
+  font-weight: bold;
+}
+
+#service-one:hover p,
+#service-one:focus p {
+  color: #000;
+  font-weight: 500;
+}
+
+#service-one h4 {
+  color: #007CE1;
+}
+
+#service-one:hover h4,
+#service-one:focus h4 {
+  color: #000;
+  font-weight: 700;
+}
+
+/* service 2 */
+#service-two {
+  height: 350px;
+  width: auto;
+  background-color: #fff;
+  transition: all 0.8s cubic-bezier(.16, 1, .3, 1);
+  box-shadow: 0 0 10px 0 rgba(64, 64, 64, 0.2);
+}
+
+#service-two:hover,
+#service-two:focus {
+  border-radius: 5px;
+  background-color: #37d0f7;
+  color: #000;
+}
+
+#service-two span {
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#service-two:hover span,
+#service-two:focus span {
+  color: #000;
+  font-weight: bold;
+}
+
+#service-two:hover p,
+#service-two:focus p {
+  color: #000;
+  font-weight: 500;
+}
+
+#service-two h4 {
+  color: #007CE1;
+}
+
+#service-two:hover h4,
+#service-two:focus h4 {
+  color: #000;
+  font-weight: 700;
+}
+
+/* service 3,4,5 */
+#service-three {
+  height: 350px;
+  width: auto;
+  background-color: #fff;
+  transition: all 0.8s cubic-bezier(.16, 1, .3, 1);
+  box-shadow: 0 0 10px 0 rgba(64, 64, 64, 0.2);
+
+}
+
+#service-three:hover,
+#service-three:focus {
+  border-radius: 5px;
+  background-color: #37d0f7;
+  color: #000;
+}
+
+#service-three span {
+  color: #000;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+#service-three:hover span,
+#service-three:focus span {
+  color: #000;
+  font-weight: bold;
+}
+
+#service-three:hover p,
+#service-three:focus p {
+  color: #000;
+  font-weight: 500;
+}
+
+#service-three h4 {
+  color: #007CE1;
+}
+
+#service-three:hover h4,
+#service-three:focus h4 {
+  color: #000;
+  font-weight: 700;
+}
+
+/* krishna */
+
+#service-h4:hover {
+  color: #ff9900;
+}
+
+#service-p {
+  text-align: justify;
+}
+
+/* Parellax Section */
+#parallax {
+  background-image: url(../images/parellax-bg.jpg);
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax-h3 {
+  color: #fff;
+}

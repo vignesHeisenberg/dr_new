@@ -1,0 +1,108 @@
+/* Landing Contents */
+#landing {
+    background-image: url(../images/vision-bg.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+
+#landing-contents {
+    text-align: left;
+}
+
+#landing-contents-h5 {
+    color: #fff;
+    font-weight: lighter;
+}
+
+#landing-contents-h3 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+/* Vision Contents */
+#vision-content-a {
+    text-decoration: none;
+}
+
+#vision-content-h2 {
+    font-weight: bold;
+}
+
+#vision-content-p {
+    font-weight: bold;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+
+#bg-img {
+    background-image: url(../images/bg.jpg);
+
+}
+
+#landing-img {
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-size: 40px;
+}
+
+#pro-main {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#pro-sub {
+    font-size: 17px;
+    color: #313138;
+    text-align: center;
+    line-height: 1.6em;
+}
+
+#pro-con {
+    font-size: 30px;
+    color: #202832;
+    margin-top: 20px;
+}
+
+#pro-con-sub {
+    font-size: 17px;
+    color: #313138;
+    text-align: left;
+    line-height: 1.6em;
+}
+
+#pro-img {
+    height: 100%;
+    width: 100%;
+    margin-top: -40px;
+}
+
+#carousel {
+    background-image: url(../images/carousel.jpg);
+    height: 500px;
+}
+
+/* Parellax Section */
+#parallax {
+    background-image: url(../images/parellax-bg.jpg);
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-h3 {
+    color: #fff;
+}

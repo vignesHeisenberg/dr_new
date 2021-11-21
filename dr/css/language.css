@@ -1,0 +1,87 @@
+#landing {
+  background-image: url(../images/5431981.jpg);
+  background-size: cover;
+  height: 650px;
+  width: auto;
+}
+#landing-contents {
+  background-color: transparent;
+}
+#landing-image {
+  background-color: transparent;
+}
+#lang_title {
+  color: white;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+#lang_title_content {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+}
+#lang_land_c {
+  height: 400px;
+}
+#line {
+  border-left: rgb(21, 115, 255);
+  border-left-style: solid;
+}
+#content1 {
+  font-size: 15px;
+  font-weight: 550;
+  color: rgb(7, 150, 245);
+}
+#content2 {
+  font-weight: bold;
+  /* margin-top: -10px; */
+}
+#content3 {
+  /* margin-left: 20px; */
+  font-size: 18px;
+  font-weight: 600;
+  text-align: justify;
+  /* padding-right: 50px; */
+  /* padding-right: 30px; */
+}
+#content4 {
+  /* margin-top: 60px; */
+  /* margin-bottom: 10px; */
+}
+#content4 img {
+  height: 35px;
+  width: 35px;
+}
+#content-subcontent h2 {
+  font-weight: bold;
+}
+#content-subcontent p{
+  text-align: justify;
+}
+#content-image img {
+  height: 500px;
+  width: 450px;
+}
+#get-in-touch {
+  background: linear-gradient(
+    90deg,
+    rgba(16, 44, 131, 1) 0%,
+    rgba(22, 111, 147, 1) 100%
+  );
+}
+#get-in-touch h2 {
+  font-weight: bold;
+}
+
+/* Parellax Section */
+#parallax {
+  background-image: url(../images/parellax-bg.jpg);
+  min-height: 250px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#parallax-h3 {
+  color: #fff;
+}

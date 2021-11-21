@@ -1,0 +1,217 @@
+/* about-landing-contents img */
+#about-landing-contents {
+    background-image: url('../images/vision-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    min-height: 600px;
+
+}
+
+/* about-landing-content {text(h2),p} */
+#about-landing-contents h2 {
+    color: #fff;
+}
+
+#about-landing-contents h3 {
+    font-weight: lighter;
+    font-size: x-large;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+#about-landing-contents p {
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.8em;
+    color: #fff;
+}
+
+#team {
+    background-image: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+}
+
+#landing-two {
+    background-image: url('../images/insurance-extract-hero-image.jpg');
+    background-size: cover;
+    min-height: 650px;
+}
+
+#landing-two h2 {
+    /* padding:5%; */
+    margin-top: -3.5%;
+    margin-left: 10%;
+    color: white;
+    font-size: larger;
+}
+
+#landing-two h4 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: xx-large;
+}
+
+#landing-two h3 {
+    color: white;
+    font-weight: lighter;
+    font-size: x-large;
+    /* padding-right: 30%; */
+    max-width: 90%;
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width:481px) and (max-width: 767px) {
+    #landing-two img {
+        height: 7%;
+        width: 10%;
+    }
+
+    #landing-two h2 {
+        margin-top: -10%;
+        margin-left: 25%;
+        position: static;
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    #landing-two img {
+        height: 7%;
+        width: 10%;
+    }
+
+    #landing-two h2 {
+        margin-top: -10%;
+        margin-left: 25%;
+    }
+}
+
+/* Parellax Section */
+#parallax {
+    background-image: url(../images/parellax-bg.jpg);
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax-h3 {
+    color: #fff;
+}
+
+#insurance-content-p {
+    text-align: justify;
+}
+
+/* Profile card */
+.card {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* min-height: 432px; */
+}
+
+.card .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .text img {
+    height: 200px;
+    /* border-radius: 50%; */
+    margin-bottom: 10px;
+}
+
+.card .text h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+/* .card .text p:nth-of-type(1) {
+    color: rgb(35, 182, 219);
+    font-size: 13.5px;
+    margin-top: -5px;
+} */
+
+.card .text p:nth-of-type(1) {
+    /* margin: 10px; */
+    width: 100%;
+    text-align: center;
+}
+
+.card .links {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card .links i {
+    color: rgb(35, 182, 219);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.card .links i:hover {
+    color: rgb(29, 157, 189);
+}
+
+/* view team details */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#team-body {
+    background: #4b6cb7;
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);
+    background: linear-gradient(to right, #182848, #4b6cb7);
+    padding: 0%;
+}
+
+#team-row {
+    background-color: #fff;
+    padding: 5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+#team-row img {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+}
+
+#team-row h2 {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+#team-row p {
+    font-size: 1.1em;
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 5em;
+}

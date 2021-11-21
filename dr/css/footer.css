@@ -1,0 +1,17 @@
+.foot
+{
+    height: 200px;
+    width: auto;
+    /* background-color: aqua; */
+}
+.foot ul{
+    padding-left: 0%;
+}
+.foot li{
+    list-style-type: none;
+    line-height: 2em;
+    color: #0D6EFD;
+}
+.foot a{
+    text-decoration: none;
+}
